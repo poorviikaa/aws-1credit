@@ -1,0 +1,10 @@
+name: "Hello World Pipeline"
+on: push
+jobs:
+  my-jobs:
+    runs-on: ubuntu-latest
+    steps:
+     - name: my-step
+       run: echo "Hello World!"
+     - name: my-world
+       run: echo "Hello World 2"
